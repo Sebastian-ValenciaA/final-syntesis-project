@@ -4,11 +4,11 @@ html {
 
 body {
   margin: 0;
-  background-color: #ffffff;
+  background-color: pink;
 }
 
 header h1 {
-  background-color: #364552;
+  background-color: #6e0065;
   color: white;
   padding: 3rem 2rem;
   font-size: 3rem;
@@ -45,6 +45,7 @@ h5 {
 }
 
 body p {
+  text-align: justify;
   margin: 1rem 0;
   padding: 1rem 1rem;
   width: 95%;
@@ -52,9 +53,9 @@ body p {
   margin-right: auto;
 }
 
-ul,
+ol,
 li {
-  background-color: #fff;
+  background-color: #28aed6;
   margin: 1rem 0;
   width: 95%;
   margin-left: auto;
@@ -78,12 +79,12 @@ footer p {
 
 footer a {
   transition: color 0.3s ease;
-  color: white;
+  color: rgb(226, 42, 42);
   text-decoration: none;
 }
 
 footer a:hover {
-  color: cornflowerblue;
+  color: rgb(42, 39, 206);
 }
 
 /* Go from zero to full opacity */
@@ -103,8 +104,8 @@ footer a:hover {
 
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  border: 1px solid #6e0065;
+  background-color: #ffffff;
   width: 800px;
   margin: 0 auto;
   border-radius: 0.3rem;
@@ -123,20 +124,20 @@ footer a:hover {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: rgb(209, 13, 235);
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: rgba(104, 0, 104, 0.411);
 }
 
 /* Style the tab content */
 .tabcontent {
   display: none;
   padding: 0.25rem 0;
-  border: 1px solid #ccc;
-  background-color: #fff;
+  border: 1px solid #6e0065;
+  background-color: #28aed6;
   border-top: none;
   border-radius: 0.5rem;
   width: 800px;
