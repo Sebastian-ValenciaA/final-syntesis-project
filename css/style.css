@@ -4,7 +4,8 @@ html {
 
 body {
   margin: 0;
-  background-image: url("../../images/ojiva.jpg");
+  background-color: plum;
+  background-image: url("/images/ojiva.jpg");
 }
 
 header h1 {
